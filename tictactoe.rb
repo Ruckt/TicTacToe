@@ -3,12 +3,11 @@ game_on = 0
 winner = 0
 game_type = 0
 
-
+#2 player game or vs. the computer
 puts "Would you like to play against a friend or me?"
 loop do
     puts "Enter 2 to play your friend and 1 to play the computer."
     game_type  = gets.to_i 
-    #Evaluate t
     if game_type == 1  || game_type == 2    
         break
     else 
